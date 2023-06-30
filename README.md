@@ -16,6 +16,7 @@ Video demo link: https://youtu.be/HwHtArWor8E
 
 ![Screenshot (449)](https://github.com/sankethp44/Cooking-Starter/assets/122307186/55bca730-d549-4920-9ecc-5fb17ae077a0)
 
+
 # Languages and technologies
 - Html    
 - Css    
