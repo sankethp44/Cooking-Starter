@@ -2719,6 +2719,7 @@ textarea.form-control-lg {
   border-radius: 1rem;
 }
 
+
 .form-range:disabled {
   pointer-events: none;
 }
@@ -3945,6 +3946,7 @@ fieldset:disabled .btn {
 .dropdown-menu-start {
   --bs-position: start;
 }
+
 
 .dropdown-menu-start[data-bs-popper] {
   right: auto
@@ -18799,7 +18801,7 @@ div#small-dialog iframe {
 /* movetop styling */
 #movetop {
   position: fixed;
-  bottom: 90px;
+  bottom: 550px;
   right: 15px;
   z-index: 9;
   font-size: 16px;
@@ -20916,6 +20918,8 @@ button.owl-next {
   font-weight: 600;
   margin-bottom: 10px;
 }
+
+
 
 .map-iframe iframe {
   -webkit-filter: var(--iframe-filter);

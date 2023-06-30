@@ -9,8 +9,50 @@
     <link href="//fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <!-- Template CSS Style link -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
+    <style>
+        .webchat-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 400px;
+            height: 500px;
+            border: 1px solid white;
+            border-radius: 5px;
+            overflow: hidden;
+            display: none;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            font-family: Arial, sans-serif;
+        }
+        
+        .webchat-container iframe {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .chatbot-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: red;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .chatbot-button:hover {
+            background-color: red;
+        }
+    </style>
 </head>
-
 <body>
     <!-- header -->
     <header id="site-header" class="fixed-top">
@@ -65,7 +107,6 @@
         </div>
     </header>
     <!-- //header -->
-    <iframe src='https://webchat.botframework.com/embed/QnABotforwebsite-bot?s=881YhuT-eZk.FuqIxg93c5BGX592GOxA2wXf2O08lVq7Y-WFHWQWC4I'  style='min-width: 400px; width: 100%; min-height: 500px;'></iframe>
 
     <!-- banner section -->
     <section class="w3l-main-slider" id="home">
@@ -83,11 +124,12 @@
                         </div>
                     </div>
                 </div>
+            
             </div>
         </div>
     </section>
     <!-- //banner section -->
-
+    
     <!-- about section -->
     <section class="w3l-aboutblock py-5">
         <div class="container py-lg-5 py-md-4 py-2">
@@ -126,6 +168,37 @@
         </div>
     </section>
     <!-- //about section -->
+    <!-- Web Chat box -->
+    <div class="webchat-container" id="webchat-container" style="display: none;">
+        <iframe src="https://webchat.botframework.com/embed/QnABotforwebsite-bot?s=881YhuT-eZk.FuqIxg93c5BGX592GOxA2wXf2O08lVq7Y-WFHWQWC4I" style="width: 100%; height: 100%; border: 0;"></iframe>
+        <button onclick="hideWebChat()">Cancel</button>
+        
+    </div>
+
+    <!-- Your existing JavaScript code here -->
+    <button class="chatbot-button" onclick="toggleWebChat()">Chat Bot</button>
+
+    <!-- Your existing JavaScript code here -->
+    <script>
+        var webchatContainer = document.getElementById("webchat-container");
+        var chatbotButton = document.querySelector(".chatbot-button");
+
+        function toggleWebChat() {
+            if (webchatContainer.style.display === "none") {
+            chatbotButton.style.display = "block";
+        }
+            if (webchatContainer.style.display === "block") {
+                webchatContainer.style.display = "none";
+                chatbotButton.innerText = "Chat Bot";
+            } else {
+                webchatContainer.style.display = "block";
+                chatbotButton.innerText = "Cancel";
+            }
+        }
+
+        
+</script>
+
 
     <!-- courses section -->
     <section class="w3l-courses py-5" id="courses">
