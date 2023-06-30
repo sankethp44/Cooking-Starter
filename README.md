@@ -14,8 +14,6 @@ Video demo link: https://youtu.be/HwHtArWor8E
 
 ![Screenshot (452)](https://github.com/sankethp44/Cooking-Starter/assets/122307186/ab1ce9f5-5960-48b1-96e7-f90d7085bae3)
 
-![Screenshot (451)](https://github.com/sankethp44/Cooking-Starter/assets/122307186/81e9e45b-f71a-4205-bb7a-d16ddd085aaf)
-
 ![Screenshot (449)](https://github.com/sankethp44/Cooking-Starter/assets/122307186/55bca730-d549-4920-9ecc-5fb17ae077a0)
 
 # Languages and technologies
