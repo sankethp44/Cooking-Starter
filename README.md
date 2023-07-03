@@ -1,7 +1,7 @@
 # About
 This is my sample website template built using Html, Css,Javascript languages and deployed using Azure services.     
-Azure project link: https://happy-forest-0862ca910.3.azurestaticapps.net     
-Video demo link: https://youtu.be/HwHtArWor8E
+[Azure project link](https://happy-forest-0862ca910.3.azurestaticapps.net)      
+[Video demo link](https://youtu.be/HwHtArWor8E)
 # Features
 - Interactive interface    
 - Built-in chatbot    
