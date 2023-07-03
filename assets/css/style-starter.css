@@ -19232,7 +19232,7 @@ h5.sub-title {
 .zs-enabled .zs-slides,
 .zs-enabled .zs-slide {
   position: absolute;
-  z-index: 1;
+  z-index: 0;
   top: 0;
   left: 0;
   width: 100%;
@@ -19443,6 +19443,7 @@ h5.sub-title {
 /* //about section */
 
 /* courses section */
+
 .w3l-courses a.zoom {
   overflow: hidden;
   border-top-left-radius: 6px;

@@ -18,6 +18,7 @@
             right: 20px;
             width: 400px;
             height: 500px;
+            z-index:100;
             border: 1px solid white;
             border-radius: 5px;
             overflow: hidden;
@@ -41,6 +42,7 @@
             bottom: 20px;
             right: 20px;
             padding: 10px 20px;
+            z-index:101;
             background-color: red;
             color: #fff;
             border: none;
@@ -114,7 +116,8 @@
     <!-- //header -->
     <!-- Web Chat box -->
     <div class="webchat-container" id="webchat-container" style="display: none;">
-        <iframe src='https://webchat.botframework.com/embed/QnABotforwebsite-bot?s=881YhuT-eZk.FuqIxg93c5BGX592GOxA2wXf2O08lVq7Y-WFHWQWC4I'  style='min-width: 400px; width: 100%; min-height: 500px;'></iframe>        <button onclick="hideWebChat()">Cancel</button>
+        <iframe src='https://webchat.botframework.com/embed/QnABotforwebsite-bot?s=881YhuT-eZk.FuqIxg93c5BGX592GOxA2wXf2O08lVq7Y-WFHWQWC4I'  style='min-width: 400px; width: 100%; min-height: 500px;'></iframe>
+                <button onclick="hideWebChat()">Cancel</button>
         
     </div>
 
