@@ -1,7 +1,7 @@
 # About
 This is my sample website template built using Html, Css,Javascript languages and deployed using Azure services.     
 [Azure project link](https://happy-forest-0862ca910.3.azurestaticapps.net)      
-[Video demo link](https://youtu.be/HwHtArWor8E)
+[Video demo link](https://youtu.be/HwHtArWor8E)       
 Azure technologies used screenshot:
 ![Screenshot (455)](https://github.com/sankethp44/Cooking-Starter/assets/122307186/cfe1221b-7ede-43ce-99ae-0ea3985a00c9)
 
