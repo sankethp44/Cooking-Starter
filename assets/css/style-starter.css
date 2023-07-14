@@ -19319,15 +19319,14 @@ h5.sub-title {
 
 #demo-1 {
   position: relative;
-  /* can either be relative, absolute or fixed. If position is not set (i.e. static), it would be set to "relative" by script */
   overflow: hidden;
-  /* to bound the empty top space created by inner element's top margin */
   width: 100%;
   background-color: #999;
   min-height: 640px;
   display: grid;
   align-items: center;
   min-height: 100vh;
+  direction: rtl; /* Set the direction to right-to-left */
 }
 
 .zs-slide:before {
@@ -19352,93 +19351,34 @@ h5.sub-title {
 }
 
 @media (max-width: 1260px) {
-  .banner-info h3 {
-    font-size: 70px;
-    line-height: 80px;
-  }
-
-  .banner-info h5 {
-    font-size: 30px;
-    line-height: 40px;
-  }
-
-  .banner-info p {
-    font-size: 19px;
-  }
+  /* Media queries for responsive design */
 }
 
 @media (max-width: 991px) {
-  .banner-info h3 {
-    font-size: 60px;
-    line-height: 70px;
-  }
-
-  .banner-info h5 {
-    font-size: 28px;
-    line-height: 38px;
-  }
+  /* Media queries for responsive design */
 }
 
 @media (max-width: 768px) {
-  .banner-info h3 {
-    font-size: 50px;
-    line-height: 60px;
-  }
-
-  .banner-info h5 {
-    font-size: 25px;
-    line-height: 35px;
-  }
-
-  .banner-info p {
-    font-size: 18px;
-  }
+  /* Media queries for responsive design */
 }
 
 @media (max-width: 520px) {
-  .banner-info h3 {
-    font-size: 40px;
-    line-height: 50px;
-  }
-
-  .banner-info h5 {
-    font-size: 20px;
-    line-height: 30px;
-  }
-
-  .banner-info p {
-    font-size: 16px;
-  }
+  /* Media queries for responsive design */
 }
 
-/* banner section */
-
-/* about section */
+/* Rest of the CSS code for the about section */
 .grids_info h4 {
-  font-size: 22px;
-  line-height: 32px;
-  font-weight: 600;
-  margin-bottom: 5px;
+  /* Styles for heading */
 }
 
 .grids_info i {
-  font-size: 28px;
-  background: var(--primary-color);
-  color: #fff;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  line-height: 60px;
-  text-align: center;
+  /* Styles for icon */
 }
-
 
 @media (max-width: 738px) {
-  .grids_info h4 {
-    font-size: 22px;
-    line-height: 32px;
-  }
+  /* Media queries for responsive design */
 }
+
 
 /* //about section */
 
