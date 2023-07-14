@@ -12856,6 +12856,10 @@ li {
   content: "\f2e7";
 }
 
+.fa-kitchen-set:before{
+  content: "\e51a";
+}
+
 .fa-briefcase:before {
   content: "\f0b1";
 }
@@ -19114,7 +19118,7 @@ header.nav-fixed {
   padding: 10px 36px;
   font-size: 16px;
   color: #fff;
-  border-radius: var(--border-radius-full);
+  border-radius: 10px;
   font-weight: 600;
   outline: none;
   border: 2px solid var(--primary-color);
