@@ -12855,6 +12855,9 @@ li {
 .fa-utensils:before {
   content: "\f2e7";
 }
+.fa-bread-slice::before{
+  content: "\f7ec";
+}
 
 .fa-kitchen-set:before{
   content: "\e51a";
